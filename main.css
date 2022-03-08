@@ -1,0 +1,170 @@
+/* Zadovoljan sobom, jer sam domaci radio samostalno. Puno vam hvala! */
+
+/* Global styles */
+* {
+  box-sizing: border-box;
+}
+html, body {
+  height: 100%;
+  background-color: #eeeeee;
+  margin: 0;
+}
+/* Layout */
+.container {
+  width: 960px;
+  margin: 0 auto;
+  background-color: #ffffff;
+}
+.purple {
+  background-color: #333333;
+}
+.col-1-2, .col-1-4 {
+  float: left;
+}
+.col-1-2 {
+  width: 50%;
+}
+.col-1-4 {
+  width: 25%;
+  padding: 25px;
+}
+/* Specific styles */
+.main-header {
+  background-color: #333333;
+  width: 100%;
+  padding: 15px 0;
+}
+nav {
+  float: right;
+  background-color: #333333;
+}
+nav ul {
+  margin: 0;
+}
+.main-header div nav ul li {
+  float: left;
+  font-size: 30px;
+  font-family: 'Arial', sans-serif;
+  color: #ffffff;
+  padding: 0 25px;
+  border-right: 1px solid #ffffff;
+  line-height: 1;
+  display: block;
+}
+.main-header div nav ul li:last-child {
+  border-right: none;
+}
+.label {
+  margin-left: 30px;
+}
+#main-label {
+  margin: 0;
+  padding-top: 30px;
+  font-family: 'Arial', sans-serif;
+  font-size: 100px;
+  font-weight: bold;
+  color: #333333;
+}
+#label2 {
+  font-family: 'Arial', sans-serif;
+  font-size: 40px;
+  color: #333333;
+  letter-spacing: 3px;
+  margin-top: 10px;
+  padding-bottom: 30px;
+  margin-bottom: 30px;
+  border-bottom: 1.5px solid #333333;
+}
+.cldog {
+  margin: 0 30px;
+}
+.clean-layout {
+  padding: 25px;
+}
+h2 {
+  font-size: 30px;
+  font-family: 'ARIAL', sans-serif;
+  font-weight: bold;
+}
+h3 {
+  font-size: 22px;
+  font-family: 'ARIAL', sans-serif;
+  font-weight: bold;
+  color: #000000;
+  margin-top: 0;
+  margin-bottom: 35px;
+}
+a {
+  font-size: 16px;
+  font-family: 'Arial', sans-serif;
+  color: #000000;
+  text-decoration: none;
+  line-height: 1.4;
+}
+.contrast h3, .contrast a{
+  color: #ffffff;
+}
+.contrast {
+  background-color: #333333;
+}
+.cldog {
+  padding-top: 18.5px;
+  padding-bottom: 50px;
+}
+.navorg {
+  margin: 0 30px;
+  border: 1px dashed #000000;
+}
+.nav-org {
+  padding: 0 25px;
+  padding-bottom: 25px;
+}
+.frtalj {
+  margin-top: 50px;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+.dgp {
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding: 25px;
+  background-color: #333333;
+  line-height: 1;
+  _border-bottom: 1px solid black;
+}
+#dgp-text {
+  color: white;
+  font-family: 'Georgia', sans-serif;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 30px;
+  float: right;
+  text-align: right;
+}
+#dgp-big {
+  font-size: 80px;
+  color: #00CC66;
+  line-height: 1;
+}
+#dgp-end {
+  color: #6699CC;
+}
+footer {
+  padding: 25px;
+  margin: 0 30px;
+  border-top: 0.5px solid black;
+}
+footer p {
+  margin: 0;
+}
+/* Helper classes */
+.clearfix::before,
+.clearfix::after {
+  content: " ";
+  display: table;
+}
+.clearfix::after {
+  clear: both;
+}
